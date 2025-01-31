@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lyric</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      
+  <main>
+    <h1>u dan i</h1>
+    <h3>u dan i</h3>
+    <div class="cover">
+      <img src="src/osaka.jpg" alt="">
+      <img src="src/vinyl-record.png" alt="Vinyl Record">
+    </div>
+    <audio id="audio" src="src/ui.mp3" loop></audio>
+    <div id="lyrics"></div>
+      
+    <div id="controls">
+      <button id="playPauseBtn">Play</button>
+      <span id="current-time">0:00</span>
+      <input id="seek-bar" type="range" value="0" step="1">
+      <span id="duration">0:00</span>
+      <button id="speedBtn">2x Speed</button>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
